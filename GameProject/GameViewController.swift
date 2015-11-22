@@ -20,6 +20,7 @@ class GameViewController: UIViewController {
         skView.ignoresSiblingOrder = true
         scene.scaleMode = .ResizeFill
         skView.presentScene(scene)
+        skView.showsPhysics = true
     }
     
     override func prefersStatusBarHidden() -> Bool {

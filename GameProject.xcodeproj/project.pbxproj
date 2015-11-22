@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8117C4451BED017E00B83B20 /* sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 8117C4431BED017E00B83B20 /* sprites.atlasc */; };
-		8117C4461BED017E00B83B20 /* sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8117C4441BED017E00B83B20 /* sprites.swift */; };
 		8117C4481BED039400B83B20 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8117C4471BED039400B83B20 /* background.png */; };
+		812421201BFDDE850068CCBF /* Sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 8124211E1BFDDE850068CCBF /* Sprites.atlasc */; };
+		812421211BFDDE850068CCBF /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8124211F1BFDDE850068CCBF /* Sprites.swift */; };
 		812A65B31BEE40FD00D2DEAA /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A65B21BEE40FD00D2DEAA /* Player.swift */; };
 		814718CA1BE459E9000995D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814718C91BE459E9000995D4 /* AppDelegate.swift */; };
 		814718CE1BE459E9000995D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814718CD1BE459E9000995D4 /* GameScene.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8117C4431BED017E00B83B20 /* sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sprites.atlasc; sourceTree = "<group>"; };
-		8117C4441BED017E00B83B20 /* sprites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sprites.swift; sourceTree = "<group>"; };
 		8117C4471BED039400B83B20 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8124211E1BFDDE850068CCBF /* Sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sprites.atlasc; sourceTree = "<group>"; };
+		8124211F1BFDDE850068CCBF /* Sprites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
 		812A65B21BEE40FD00D2DEAA /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		814718C61BE459E9000995D4 /* GameProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		814718C91BE459E9000995D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -70,8 +70,8 @@
 				812A65B21BEE40FD00D2DEAA /* Player.swift */,
 				814718CD1BE459E9000995D4 /* GameScene.swift */,
 				814718CF1BE459E9000995D4 /* GameViewController.swift */,
-				8117C4431BED017E00B83B20 /* sprites.atlasc */,
-				8117C4441BED017E00B83B20 /* sprites.swift */,
+				8124211E1BFDDE850068CCBF /* Sprites.atlasc */,
+				8124211F1BFDDE850068CCBF /* Sprites.swift */,
 				814718D11BE459E9000995D4 /* Main.storyboard */,
 				814718DF1BE45B46000995D4 /* Sounds */,
 				814718D41BE459E9000995D4 /* Assets.xcassets */,
@@ -140,11 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8117C4451BED017E00B83B20 /* sprites.atlasc in Resources */,
 				8117C4481BED039400B83B20 /* background.png in Resources */,
 				814718D81BE459E9000995D4 /* LaunchScreen.storyboard in Resources */,
 				814718D51BE459E9000995D4 /* Assets.xcassets in Resources */,
 				814718E11BE45B46000995D4 /* Sounds in Resources */,
+				812421201BFDDE850068CCBF /* Sprites.atlasc in Resources */,
 				814718D31BE459E9000995D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,7 +158,7 @@
 			files = (
 				814718CE1BE459E9000995D4 /* GameScene.swift in Sources */,
 				814718D01BE459E9000995D4 /* GameViewController.swift in Sources */,
-				8117C4461BED017E00B83B20 /* sprites.swift in Sources */,
+				812421211BFDDE850068CCBF /* Sprites.swift in Sources */,
 				812A65B31BEE40FD00D2DEAA /* Player.swift in Sources */,
 				814718CA1BE459E9000995D4 /* AppDelegate.swift in Sources */,
 			);

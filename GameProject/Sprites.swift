@@ -1,6 +1,6 @@
 // ---------------------------------------
-// Sprite definitions for 'sprites'
-// Generated with TexturePacker 3.9.4
+// Sprite definitions for 'Sprites'
+// Generated with TexturePacker 4.0.1
 //
 // http://www.codeandweb.com/texturepacker
 // ---------------------------------------
@@ -8,10 +8,12 @@
 import SpriteKit
 
 
-class sprites {
+class Sprites {
 
     // sprite names
     let BACKGROUND       = "background"
+    let BOX              = "box"
+    let PLAYBUTTON       = "playbutton"
     let PLAYER_DEAD_000  = "player/dead/000"
     let PLAYER_DEAD_001  = "player/dead/001"
     let PLAYER_DEAD_002  = "player/dead/002"
@@ -65,11 +67,13 @@ class sprites {
 
 
     // load texture atlas
-    let textureAtlas = SKTextureAtlas(named: "sprites")
+    let textureAtlas = SKTextureAtlas(named: "Sprites")
 
 
     // individual texture objects
     func background() -> SKTexture       { return textureAtlas.textureNamed(BACKGROUND) }
+    func box() -> SKTexture              { return textureAtlas.textureNamed(BOX) }
+    func playbutton() -> SKTexture       { return textureAtlas.textureNamed(PLAYBUTTON) }
     func player_dead_000() -> SKTexture  { return textureAtlas.textureNamed(PLAYER_DEAD_000) }
     func player_dead_001() -> SKTexture  { return textureAtlas.textureNamed(PLAYER_DEAD_001) }
     func player_dead_002() -> SKTexture  { return textureAtlas.textureNamed(PLAYER_DEAD_002) }
