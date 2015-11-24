@@ -18,6 +18,9 @@
 		814718E11BE45B46000995D4 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 814718DF1BE45B46000995D4 /* Sounds */; };
 		816B5BE11C01F6AF00E76B92 /* Sprites.atlasc in Resources */ = {isa = PBXBuildFile; fileRef = 816B5BDF1C01F6AF00E76B92 /* Sprites.atlasc */; };
 		816B5BE21C01F6AF00E76B92 /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816B5BE01C01F6AF00E76B92 /* Sprites.swift */; };
+		81853CCC1C044C7300869C35 /* MyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81853CC91C044C7300869C35 /* MyLinkedList.swift */; };
+		81853CCD1C044C7300869C35 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81853CCA1C044C7300869C35 /* Node.swift */; };
+		81853CCE1C044C7300869C35 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81853CCB1C044C7300869C35 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		814718DF1BE45B46000995D4 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		816B5BDF1C01F6AF00E76B92 /* Sprites.atlasc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sprites.atlasc; sourceTree = "<group>"; };
 		816B5BE01C01F6AF00E76B92 /* Sprites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
+		81853CC91C044C7300869C35 /* MyLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLinkedList.swift; sourceTree = "<group>"; };
+		81853CCA1C044C7300869C35 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		81853CCB1C044C7300869C35 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +76,8 @@
 				812A65B21BEE40FD00D2DEAA /* Player.swift */,
 				814718CD1BE459E9000995D4 /* GameScene.swift */,
 				814718CF1BE459E9000995D4 /* GameViewController.swift */,
-				816B5BDF1C01F6AF00E76B92 /* Sprites.atlasc */,
-				816B5BE01C01F6AF00E76B92 /* Sprites.swift */,
+				81853CCF1C0451EB00869C35 /* Queue */,
+				81853CD01C04523200869C35 /* Sprites */,
 				814718D11BE459E9000995D4 /* Main.storyboard */,
 				814718DF1BE45B46000995D4 /* Sounds */,
 				814718D41BE459E9000995D4 /* Assets.xcassets */,
@@ -80,6 +86,25 @@
 				814718D91BE459E9000995D4 /* Info.plist */,
 			);
 			path = GameProject;
+			sourceTree = "<group>";
+		};
+		81853CCF1C0451EB00869C35 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				81853CC91C044C7300869C35 /* MyLinkedList.swift */,
+				81853CCA1C044C7300869C35 /* Node.swift */,
+				81853CCB1C044C7300869C35 /* Queue.swift */,
+			);
+			name = Queue;
+			sourceTree = "<group>";
+		};
+		81853CD01C04523200869C35 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				816B5BE01C01F6AF00E76B92 /* Sprites.swift */,
+				816B5BDF1C01F6AF00E76B92 /* Sprites.atlasc */,
+			);
+			name = Sprites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +181,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81853CCC1C044C7300869C35 /* MyLinkedList.swift in Sources */,
 				814718CE1BE459E9000995D4 /* GameScene.swift in Sources */,
 				814718D01BE459E9000995D4 /* GameViewController.swift in Sources */,
+				81853CCE1C044C7300869C35 /* Queue.swift in Sources */,
 				816B5BE21C01F6AF00E76B92 /* Sprites.swift in Sources */,
 				812A65B31BEE40FD00D2DEAA /* Player.swift in Sources */,
 				814718CA1BE459E9000995D4 /* AppDelegate.swift in Sources */,
+				81853CCD1C044C7300869C35 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

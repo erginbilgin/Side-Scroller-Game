@@ -7,9 +7,8 @@
 //
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
-    // 1
     let sheet = Sprites()
     var player = Player()
     var background = SKSpriteNode()
@@ -17,12 +16,13 @@ class GameScene: SKScene {
     var isPlaying: Bool = false
     var isRunning: Bool = false
     var ground = SKSpriteNode()
-    
+    var collectedItems = Queue()
     
     struct Category { // Physics categories
         static let Player: UInt32 = 1
         static let Obstacle: UInt32 = 2
         static let Ground: UInt32 = 4
+        static let Fruit: UInt32 = 8
     }
     
     func SetPlayer(){
@@ -31,13 +31,14 @@ class GameScene: SKScene {
         player.physicsBody!.contactTestBitMask = player.physicsBody!.collisionBitMask
         player.physicsBody?.dynamic = true
         player.physicsBody?.allowsRotation = false
+        player.physicsBody?.categoryBitMask = Category.Player
+        player.physicsBody?.contactTestBitMask = Category.Fruit
+        player.physicsBody?.collisionBitMask = Category.Obstacle
     }
     
     func SpawnPlayer(){
         player.RunTo(CGPoint(x: size.width/2, y: size.height * 0.5))
         addChild(player)
-        //player.physicsBody = SKPhysicsBody(texture: player.texture!, size: player.texture!.size())
-        
     }
     
     func UIStart(){
@@ -89,7 +90,7 @@ class GameScene: SKScene {
         let cherry = SKSpriteNode(texture: sheet.cherry())
         let strawberry = SKSpriteNode(texture: sheet.strawberry())
         var fruitList: [SKSpriteNode] = [cherry, strawberry]
-        let random: Int = Int(arc4random_uniform(2))
+        let random: Int = Int(arc4random_uniform(UInt32(fruitList.count)))
         let fruit = fruitList[random]
         if random == 0 {
             fruit.name = "cherry"
@@ -101,8 +102,11 @@ class GameScene: SKScene {
             self.size.height * 0.3 + fruit.texture!.size().height * 2)
         fruit.physicsBody?.dynamic = false
         fruit.physicsBody?.allowsRotation = false
-        let boxMove = SKAction.moveToX(0.0 - fruit.size.width, duration: 2.33)
-        fruit.runAction(boxMove, completion: {fruit.removeFromParent()})
+        fruit.physicsBody?.categoryBitMask = Category.Fruit
+        fruit.physicsBody?.contactTestBitMask = Category.Player
+        fruit.physicsBody?.collisionBitMask = Category.Obstacle
+        let fruitMove = SKAction.moveToX(0.0 - fruit.size.width, duration: 2.33)
+        fruit.runAction(fruitMove, completion: {fruit.removeFromParent()})
         addChild(fruit)
     }
     
@@ -116,7 +120,7 @@ class GameScene: SKScene {
         node.runAction(buttonFadeOut, completion: {node.removeFromParent()})
         bgloop()
         player.runAction(playerGoBack, completion: {self.player.Run()}) // Place player to run position and start running!
-        print("heeey") // DEBUG LOG
+        print("start") // DEBUG LOG
         buttonActive = false
         isPlaying = true
         // SPAWN BOX
@@ -141,14 +145,28 @@ class GameScene: SKScene {
     }
     
     func StopGame(){
+        while (!collectedItems.isEmpty()){
+            print(collectedItems.dequeue())
+        }
         player.removeFromParent()
         UIStart()
         buttonActive = true
         isPlaying = false
         isRunning = false
-        background.removeAllActions()
-        self.removeAllActions()
-        SpawnPlayer()
+        background.removeAllActions()           // REMOVE ALL ACTIONS FROM BACKGROUND
+        self.removeAllActions()                 // REMOVE ALL ACTIONS FROM SCENE
+        let wait = SKAction.waitForDuration(1)  // WAIT FOR 1 SEC BEFORE SPAWNING PLAYER AGAIN
+        let spawnPlayer = SKAction.runBlock {
+            self.SpawnPlayer()
+        }
+        let sequence = SKAction.sequence([wait, spawnPlayer])
+        self.runAction(sequence)
+    }
+    
+    func playerDidCollideWithFruit(player:SKSpriteNode, fruit:SKSpriteNode) {
+        print("collect " + fruit.name!)
+        collectedItems.enqueue(fruit.name!)
+        fruit.removeFromParent()
     }
     
     override func didMoveToView(view: SKView) {
@@ -156,6 +174,7 @@ class GameScene: SKScene {
         SetGround()         // 2- CREATE GROUND
         SetPlayer()         // 3- CREATE PLAYER
         SpawnPlayer()       // 4- SPAWN PLAYER
+        physicsWorld.contactDelegate = self
         UIStart()           // 5- SHOW UI
     }
     
@@ -181,9 +200,20 @@ class GameScene: SKScene {
         }
     }
     
+    func didBeginContact(contact: SKPhysicsContact) {
+        
+        let firstNode = contact.bodyA.node as! SKSpriteNode
+        let secondNode = contact.bodyB.node as! SKSpriteNode
+        
+        if (contact.bodyA.categoryBitMask == Category.Player) &&
+            (contact.bodyB.categoryBitMask == Category.Fruit) {
+               playerDidCollideWithFruit(firstNode, fruit: secondNode)
+        }
+    }
+    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
-        if player.position.x < (0 - player.size.width) && isRunning{
+        if player.position.x < (0 - player.size.width/2) && isRunning{
             StopGame()
         }
     }
