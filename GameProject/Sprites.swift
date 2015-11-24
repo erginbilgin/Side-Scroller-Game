@@ -13,6 +13,7 @@ class Sprites {
     // sprite names
     let BACKGROUND       = "background"
     let BOX              = "box"
+    let CHERRY           = "cherry"
     let PLAYBUTTON       = "playbutton"
     let PLAYER_DEAD_000  = "player/dead/000"
     let PLAYER_DEAD_001  = "player/dead/001"
@@ -64,6 +65,7 @@ class Sprites {
     let PLAYER_SLIDE_007 = "player/slide/007"
     let PLAYER_SLIDE_008 = "player/slide/008"
     let PLAYER_SLIDE_009 = "player/slide/009"
+    let STRAWBERRY       = "strawberry"
 
 
     // load texture atlas
@@ -73,6 +75,7 @@ class Sprites {
     // individual texture objects
     func background() -> SKTexture       { return textureAtlas.textureNamed(BACKGROUND) }
     func box() -> SKTexture              { return textureAtlas.textureNamed(BOX) }
+    func cherry() -> SKTexture           { return textureAtlas.textureNamed(CHERRY) }
     func playbutton() -> SKTexture       { return textureAtlas.textureNamed(PLAYBUTTON) }
     func player_dead_000() -> SKTexture  { return textureAtlas.textureNamed(PLAYER_DEAD_000) }
     func player_dead_001() -> SKTexture  { return textureAtlas.textureNamed(PLAYER_DEAD_001) }
@@ -124,6 +127,7 @@ class Sprites {
     func player_slide_007() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_007) }
     func player_slide_008() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_008) }
     func player_slide_009() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_009) }
+    func strawberry() -> SKTexture       { return textureAtlas.textureNamed(STRAWBERRY) }
 
 
     // texture arrays for animations
