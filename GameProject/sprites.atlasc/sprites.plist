@@ -7,7 +7,7 @@
             <key>generator</key>
             <string>TexturePacker 4.0.1 - http://www.codeandweb.com/texturepacker</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:39af8840a80c739115a9a4bba469bf87:1a6b20e8a44e27ab3933a9fe6d41182e:72e272e1b58c4a10187be479d22e9e42$</string>
+            <string>$TexturePacker:SmartUpdate:19f406f644c65911762cb89783a9ddb6:d5986676a7b846a3c99bdc73ab4cf84d:72e272e1b58c4a10187be479d22e9e42$</string>
         </dict>
         <key>format</key>
         <string>APPL</string>
@@ -17,7 +17,7 @@
                 <key>path</key>
                 <string>Sprites.1@2x.png</string>
                 <key>size</key>
-                <string>{4028,1008}</string>
+                <string>{1233,3424}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -32,9 +32,25 @@
                         <key>spriteSourceSize</key>
                         <string>{3422,640}</string>
                         <key>textureRect</key>
-                        <string>{{1,1},{3422,640}}</string>
+                        <string>{{1,1},{640,3422}}</string>
                         <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
                         <false/>
+                        <key>name</key>
+                        <string>score@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{1071,122}</string>
+                        <key>textureRect</key>
+                        <string>{{643,1},{122,1071}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -48,9 +64,9 @@
                         <key>spriteSourceSize</key>
                         <string>{208,254}</string>
                         <key>textureRect</key>
-                        <string>{{1,643},{204,238}}</string>
+                        <string>{{643,1074},{238,204}}</string>
                         <key>textureRotated</key>
-                        <false/>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -64,9 +80,9 @@
                         <key>spriteSourceSize</key>
                         <string>{208,254}</string>
                         <key>textureRect</key>
-                        <string>{{3425,1},{203,234}}</string>
+                        <string>{{767,1},{234,203}}</string>
                         <key>textureRotated</key>
-                        <false/>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -80,167 +96,7 @@
                         <key>spriteSourceSize</key>
                         <string>{208,254}</string>
                         <key>textureRect</key>
-                        <string>{{207,643},{246,187}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/001@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{10,32}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{207,832},{236,175}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/001@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{19,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{3425,237},{185,247}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/006@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{25,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{3630,1},{248,178}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/007@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{13,10}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{455,643},{240,185}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/009@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{18,10}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{697,643},{235,189}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/000@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{31,5}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{934,643},{240,176}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/001@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{1176,643},{245,168}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/005@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{34,7}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{208,254}</string>
-                        <key>textureRect</key>
-                        <string>{{445,834},{238,173}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/000@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{24,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{1423,643},{237,170}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/007@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,3}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{1662,643},{241,161}}</string>
+                        <string>{{767,206},{246,187}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -256,7 +112,7 @@
                         <key>spriteSourceSize</key>
                         <string>{294,300}</string>
                         <key>textureRect</key>
-                        <string>{{1662,806},{219,201}}</string>
+                        <string>{{1003,1},{219,201}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -266,383 +122,15 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/idle/001@2x.png</string>
+                        <string>player/run/001@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{19,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
+                        <string>{208,254}</string>
                         <key>textureRect</key>
-                        <string>{{1905,643},{243,158}}</string>
+                        <string>{{767,395},{247,185}}</string>
                         <key>textureRotated</key>
                         <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/009@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{1905,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/002@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{2150,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/008@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{2150,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/003@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{2395,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/007@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{2395,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/006@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{2640,643},{243,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/000@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{2885,643},{243,157}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/004@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{3130,643},{242,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/006@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{3130,643},{242,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/004@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{197,195}</string>
-                        <key>textureRect</key>
-                        <string>{{1176,813},{193,194}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/000@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{197,195}</string>
-                        <key>textureRect</key>
-                        <string>{{1371,815},{197,192}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/005@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,243}</string>
-                        <key>textureRect</key>
-                        <string>{{685,834},{242,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/000@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{16,36}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3425,486},{237,156}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/004@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{15,31}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3374,644},{238,153}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>playbutton@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,39}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{200,200}</string>
-                        <key>textureRect</key>
-                        <string>{{1,883},{200,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/005@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,31}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3880,1},{136,245}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/008@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,17}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{3630,181},{226,163}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/009@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{14,17}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{3630,181},{226,163}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/006@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{10,26}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3612,346},{249,132}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/007@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{10,26}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3612,346},{249,132}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/008@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{10,26}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3612,346},{249,132}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/009@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{10,26}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{294,300}</string>
-                        <key>textureRect</key>
-                        <string>{{3612,346},{249,132}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/002@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,21}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{3863,248},{164,224}}</string>
-                        <key>textureRotated</key>
-                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -656,7 +144,167 @@
                         <key>spriteSourceSize</key>
                         <string>{294,300}</string>
                         <key>textureRect</key>
-                        <string>{{3664,480},{214,180}}</string>
+                        <string>{{1015,204},{214,180}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/009@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{18,10}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{208,254}</string>
+                        <key>textureRect</key>
+                        <string>{{767,582},{235,189}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/007@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{13,10}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{208,254}</string>
+                        <key>textureRect</key>
+                        <string>{{767,773},{185,240}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/006@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{25,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{208,254}</string>
+                        <key>textureRect</key>
+                        <string>{{1004,582},{178,248}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/000@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{197,195}</string>
+                        <key>textureRect</key>
+                        <string>{{1016,386},{197,192}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/000@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{31,5}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{208,254}</string>
+                        <key>textureRect</key>
+                        <string>{{954,832},{240,176}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/001@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{10,32}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{954,1010},{236,175}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/005@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{34,7}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{208,254}</string>
+                        <key>textureRect</key>
+                        <string>{{883,1187},{238,173}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>cherry@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{103,100}</string>
+                        <key>textureRect</key>
+                        <string>{{1123,1187},{103,100}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>strawberry@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{70,90}</string>
+                        <key>textureRect</key>
+                        <string>{{1123,1289},{90,70}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/001@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{14,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{643,1280},{168,245}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -672,7 +320,7 @@
                         <key>spriteSourceSize</key>
                         <string>{208,254}</string>
                         <key>textureRect</key>
-                        <string>{{3614,662},{226,181}}</string>
+                        <string>{{813,1362},{226,181}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -680,15 +328,47 @@
                         <key>aliases</key>
                         <array/>
                         <key>isFullyOpaque</key>
-                        <true/>
+                        <false/>
                         <key>name</key>
-                        <string>box@2x.png</string>
+                        <string>player/jump/007@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{14,3}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{643,1527},{161,241}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/000@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{24,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{1041,1362},{170,237}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/001@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{125,125}</string>
+                        <string>{160,243}</string>
                         <key>textureRect</key>
-                        <string>{{3880,474},{125,125}}</string>
+                        <string>{{806,1545},{158,243}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -698,61 +378,61 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/jump/003@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,21}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{934,821},{224,163}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/004@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,21}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{934,821},{224,163}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/005@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,21}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{204,268}</string>
-                        <key>textureRect</key>
-                        <string>{{934,821},{224,163}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>strawberry@2x.png</string>
+                        <string>player/idle/009@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{70,90}</string>
+                        <string>{160,243}</string>
                         <key>textureRect</key>
-                        <string>{{1570,815},{90,70}}</string>
+                        <string>{{806,1545},{158,243}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/002@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{643,1770},{158,243}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/008@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{643,1770},{158,243}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/003@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{966,1601},{243,158}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -762,13 +442,125 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/slide/001@2x.png</string>
+                        <string>player/idle/007@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,2}</string>
+                        <string>{1,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{197,195}</string>
+                        <string>{160,243}</string>
                         <key>textureRect</key>
-                        <string>{{1883,806},{192,196}}</string>
+                        <string>{{966,1601},{243,158}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/006@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{14,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{966,1761},{243,158}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/004@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{803,1790},{158,242}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/006@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{803,1790},{158,242}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/005@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2015},{158,242}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/000@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,243}</string>
+                        <key>textureRect</key>
+                        <string>{{963,1921},{243,157}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/000@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{16,36}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{803,2034},{156,237}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/004@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{15,31}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2259},{153,238}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -784,9 +576,89 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{2077,803},{195,193}}</string>
+                        <string>{{961,2080},{195,193}}</string>
                         <key>textureRotated</key>
                         <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/005@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{14,31}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{798,2273},{136,245}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/006@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{10,26}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2499},{132,249}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/007@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{10,26}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2499},{132,249}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/008@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{10,26}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2499},{132,249}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/009@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{10,26}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{294,300}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2499},{132,249}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -800,7 +672,7 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{2274,803},{195,193}}</string>
+                        <string>{{936,2275},{195,193}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -816,9 +688,25 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{2471,803},{195,193}}</string>
+                        <string>{{936,2470},{195,193}}</string>
                         <key>textureRotated</key>
                         <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>playbutton@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,39}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{200,200}</string>
+                        <key>textureRect</key>
+                        <string>{{777,2520},{122,200}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -832,7 +720,23 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{2668,803},{195,193}}</string>
+                        <string>{{901,2665},{195,193}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <true/>
+                        <key>name</key>
+                        <string>box@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{125,125}</string>
+                        <key>textureRect</key>
+                        <string>{{1098,2665},{125,125}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -842,13 +746,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/slide/005@2x.png</string>
+                        <string>player/slide/001@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,2}</string>
+                        <string>{1,2}</string>
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{2865,803},{193,193}}</string>
+                        <string>{{643,2750},{196,192}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -864,7 +768,23 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{3060,803},{196,192}}</string>
+                        <string>{{841,2860},{196,192}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/004@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{3,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{197,195}</string>
+                        <key>textureRect</key>
+                        <string>{{643,2944},{194,193}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -880,7 +800,23 @@
                         <key>spriteSourceSize</key>
                         <string>{197,195}</string>
                         <key>textureRect</key>
-                        <string>{{3258,803},{194,193}}</string>
+                        <string>{{1039,2860},{193,194}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/005@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{197,195}</string>
+                        <key>textureRect</key>
+                        <string>{{839,3054},{193,193}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -890,15 +826,95 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>cherry@2x.png</string>
+                        <string>player/jump/008@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{14,17}</string>
                         <key>spriteSourceSize</key>
-                        <string>{103,100}</string>
+                        <string>{204,268}</string>
                         <key>textureRect</key>
-                        <string>{{3454,799},{103,100}}</string>
+                        <string>{{643,3139},{163,226}}</string>
                         <key>textureRotated</key>
                         <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/009@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{14,17}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{643,3139},{163,226}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/002@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,21}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{1034,3056},{164,224}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/003@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,21}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{808,3249},{224,163}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/004@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,21}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{808,3249},{224,163}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/005@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,21}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{204,268}</string>
+                        <key>textureRect</key>
+                        <string>{{808,3249},{224,163}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                 </array>
             </dict>
@@ -906,7 +922,7 @@
                 <key>path</key>
                 <string>Sprites.1.png</string>
                 <key>size</key>
-                <string>{503,2041}</string>
+                <string>{529,2043}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -931,61 +947,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/run/004.png</string>
+                        <string>player/dead/006.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,3}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{1,1714},{103,120}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/003.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,6}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1},{102,119}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/002.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{1,1836},{95,124}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/004.png</string>
-                        <key>spriteOffset</key>
-                        <string>{7,15}</string>
+                        <string>{4,13}</string>
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{1,1962},{120,78}}</string>
+                        <string>{{323,1},{126,66}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -995,189 +963,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/run/001.png</string>
+                        <string>player/dead/007.png</string>
                         <key>spriteOffset</key>
-                        <string>{9,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{323,122},{94,124}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/008.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{419,122},{83,114}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/009.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{419,122},{83,114}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/006.png</string>
-                        <key>spriteOffset</key>
-                        <string>{12,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{106,1714},{125,90}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/007.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,5}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{323,248},{94,121}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/003.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,10}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{419,238},{83,113}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/004.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,10}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{419,238},{83,113}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/005.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,10}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{419,238},{83,113}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/009.png</string>
-                        <key>spriteOffset</key>
-                        <string>{8,5}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{323,371},{96,118}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/006.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{421,353},{81,123}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/000.png</string>
-                        <key>spriteOffset</key>
-                        <string>{15,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{323,491},{89,121}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/001.png</string>
-                        <key>spriteOffset</key>
-                        <string>{5,15}</string>
+                        <string>{4,13}</string>
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{414,491},{88,120}}</string>
+                        <string>{{323,1},{126,66}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1187,333 +979,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/jump/001.png</string>
+                        <string>player/dead/008.png</string>
                         <key>spriteOffset</key>
-                        <string>{6,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{323,614},{86,123}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/run/005.png</string>
-                        <key>spriteOffset</key>
-                        <string>{16,3}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{104,127}</string>
-                        <key>textureRect</key>
-                        <string>{{414,613},{88,120}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/000.png</string>
-                        <key>spriteOffset</key>
-                        <string>{11,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{323,739},{87,120}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/jump/007.png</string>
-                        <key>spriteOffset</key>
-                        <string>{6,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{102,134}</string>
-                        <key>textureRect</key>
-                        <string>{{323,861},{82,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/001.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,985},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/009.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,985},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/002.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1109},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/008.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1109},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/003.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1233},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/007.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1233},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/004.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1357},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/006.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1357},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/005.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{323,1481},{80,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/000.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,985},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/001.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1086},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/002.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1187},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/003.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1288},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/007.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1389},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/008.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1490},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/009.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{405,1591},{97,99}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/dead/000.png</string>
-                        <key>spriteOffset</key>
-                        <string>{7,17}</string>
+                        <string>{4,13}</string>
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{323,1605},{80,120}}</string>
+                        <string>{{323,1},{126,66}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1523,29 +995,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/slide/004.png</string>
+                        <string>player/dead/009.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,0}</string>
+                        <string>{4,13}</string>
                         <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
+                        <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{405,1692},{97,98}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/idle/000.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,122}</string>
-                        <key>textureRect</key>
-                        <string>{{407,861},{79,122}}</string>
+                        <string>{{323,1},{126,66}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1561,7 +1017,7 @@
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{412,735},{69,124}}</string>
+                        <string>{{451,1},{69,124}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1571,15 +1027,335 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/jump/002.png</string>
+                        <string>player/run/006.png</string>
                         <key>spriteOffset</key>
-                        <string>{2,10}</string>
+                        <string>{12,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,69},{125,90}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/004.png</string>
+                        <key>spriteOffset</key>
+                        <string>{7,15}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{147,150}</string>
+                        <key>textureRect</key>
+                        <string>{{450,127},{78,120}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/002.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,161},{124,95}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/000.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{449,249},{79,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/001.png</string>
+                        <key>spriteOffset</key>
+                        <string>{9,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,258},{124,94}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/001.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,0}</string>
                         <key>spriteSourceSize</key>
                         <string>{102,134}</string>
                         <key>textureRect</key>
-                        <string>{{233,1714},{84,113}}</string>
+                        <string>{{323,354},{123,86}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/001.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{448,373},{80,122}}</string>
                         <key>textureRotated</key>
                         <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/009.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{448,373},{80,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/006.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{323,442},{123,81}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/002.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{448,497},{80,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/008.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{448,497},{80,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/007.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{323,525},{122,82}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/003.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{323,609},{122,80}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/007.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{323,609},{122,80}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/004.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{447,621},{80,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/006.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{447,621},{80,122}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/idle/005.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{80,122}</string>
+                        <key>textureRect</key>
+                        <string>{{323,691},{122,80}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/000.png</string>
+                        <key>spriteOffset</key>
+                        <string>{7,17}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{147,150}</string>
+                        <key>textureRect</key>
+                        <string>{{447,745},{80,120}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/007.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,5}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,773},{121,94}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <true/>
+                        <key>name</key>
+                        <string>box.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{63,63}</string>
+                        <key>textureRect</key>
+                        <string>{{446,867},{63,63}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/000.png</string>
+                        <key>spriteOffset</key>
+                        <string>{15,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,869},{121,89}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1593,7 +1369,7 @@
                         <key>spriteSourceSize</key>
                         <string>{100,100}</string>
                         <key>textureRect</key>
-                        <string>{{427,1},{62,100}}</string>
+                        <string>{{446,932},{62,100}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1603,13 +1379,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/dead/006.png</string>
+                        <string>player/run/004.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,13}</string>
+                        <string>{1,3}</string>
                         <key>spriteSourceSize</key>
-                        <string>{147,150}</string>
+                        <string>{104,127}</string>
                         <key>textureRect</key>
-                        <string>{{319,1727},{66,126}}</string>
+                        <string>{{323,960},{120,103}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1619,13 +1395,45 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/dead/007.png</string>
+                        <string>player/jump/008.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,13}</string>
+                        <string>{6,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{445,1034},{83,114}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/009.png</string>
+                        <key>spriteOffset</key>
+                        <string>{6,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{445,1034},{83,114}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/dead/001.png</string>
+                        <key>spriteOffset</key>
+                        <string>{5,15}</string>
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{319,1727},{66,126}}</string>
+                        <string>{{323,1065},{120,88}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1635,13 +1443,61 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/dead/008.png</string>
+                        <string>player/jump/003.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,13}</string>
+                        <string>{2,10}</string>
                         <key>spriteSourceSize</key>
-                        <string>{147,150}</string>
+                        <string>{102,134}</string>
                         <key>textureRect</key>
-                        <string>{{319,1727},{66,126}}</string>
+                        <string>{{445,1150},{83,113}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/004.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,10}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{445,1150},{83,113}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/005.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,10}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{445,1150},{83,113}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/005.png</string>
+                        <key>spriteOffset</key>
+                        <string>{16,3}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,1155},{120,88}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1651,13 +1507,61 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/dead/009.png</string>
+                        <string>player/jump/000.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,13}</string>
+                        <string>{11,1}</string>
                         <key>spriteSourceSize</key>
-                        <string>{147,150}</string>
+                        <string>{102,134}</string>
                         <key>textureRect</key>
-                        <string>{{319,1727},{66,126}}</string>
+                        <string>{{323,1245},{120,87}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>score.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{536,61}</string>
+                        <key>textureRect</key>
+                        <string>{{445,1265},{61,536}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/003.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,6}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,1334},{119,102}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/run/009.png</string>
+                        <key>spriteOffset</key>
+                        <string>{8,5}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{104,127}</string>
+                        <key>textureRect</key>
+                        <string>{{323,1438},{118,96}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1673,7 +1577,23 @@
                         <key>spriteSourceSize</key>
                         <string>{104,127}</string>
                         <key>textureRect</key>
-                        <string>{{387,1792},{114,92}}</string>
+                        <string>{{323,1536},{114,92}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/jump/002.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,10}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{102,134}</string>
+                        <key>textureRect</key>
+                        <string>{{323,1630},{113,84}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1689,23 +1609,7 @@
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{106,1806},{111,102}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>player/slide/005.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{219,1829},{98,97}}</string>
+                        <string>{{1,1803},{102,111}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1721,7 +1625,7 @@
                         <key>spriteSourceSize</key>
                         <string>{147,150}</string>
                         <key>textureRect</key>
-                        <string>{{123,1910},{92,109}}</string>
+                        <string>{{1,1916},{92,109}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1731,29 +1635,45 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>player/slide/006.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{99,97}</string>
-                        <key>textureRect</key>
-                        <string>{{217,1928},{98,97}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <true/>
-                        <key>name</key>
-                        <string>box.png</string>
+                        <string>player/slide/000.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{63,63}</string>
+                        <string>{99,97}</string>
                         <key>textureRect</key>
-                        <string>{{319,1855},{63,63}}</string>
+                        <string>{{95,1916},{97,99}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/001.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{105,1803},{97,99}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/002.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{204,1714},{99,97}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1769,7 +1689,39 @@
                         <key>spriteSourceSize</key>
                         <string>{51,50}</string>
                         <key>textureRect</key>
-                        <string>{{384,1886},{51,50}}</string>
+                        <string>{{1,1714},{50,51}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/003.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{305,1716},{99,97}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/007.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{204,1813},{99,97}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1785,7 +1737,87 @@
                         <key>spriteSourceSize</key>
                         <string>{35,45}</string>
                         <key>textureRect</key>
-                        <string>{{437,1886},{35,45}}</string>
+                        <string>{{406,1716},{35,45}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/008.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{406,1803},{99,97}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/009.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{305,1815},{99,97}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/004.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{194,1912},{98,97}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/005.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{406,1902},{98,97}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>player/slide/006.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{99,97}</string>
+                        <key>textureRect</key>
+                        <string>{{294,1914},{98,97}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>

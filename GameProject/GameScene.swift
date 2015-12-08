@@ -11,6 +11,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     let sheet = Sprites()
     var player = Player()
+    var scoretable = SKSpriteNode()
+    var fruit1 = SKSpriteNode()
+    var fruit2 = SKSpriteNode()
+    var fruit3 = SKSpriteNode()
+    var fruit4 = SKSpriteNode()
+    var fruit5 = SKSpriteNode()
+    var fruit6 = SKSpriteNode()
+    var fruit7 = SKSpriteNode()
+    var fruit8 = SKSpriteNode()
     var background = SKSpriteNode()
     var buttonActive:Bool = false
     var isPlaying: Bool = false
@@ -76,7 +85,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func SpawnBox(){
         let box = SKSpriteNode(texture: sheet.box())
         box.physicsBody = SKPhysicsBody(rectangleOfSize: (box.texture?.size())!)
-        //box.anchorPoint = CGPointMake(0.0, 0.0)
         box.position = CGPointMake(self.size.width + (box.texture!.size().width * 0.5),
             self.size.height * 0.3 + box.texture!.size().height * 0.5)
         box.physicsBody?.dynamic = false
@@ -86,17 +94,97 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         addChild(box)
     }
     
+    func GenerateScoreSprite() -> SKSpriteNode{
+        let opt1 = SKSpriteNode(texture: sheet.cherry())
+        let opt2 = SKSpriteNode(texture: sheet.strawberry())
+        let opt3 = SKSpriteNode()
+        let fruit = collectedItems.dequeue()
+        if fruit == "cherry"{
+            return opt1
+        }
+        if fruit == "strawberry"{
+            return opt2
+        }
+        return opt3
+    }
+    
+    func ShowScore(){
+        //-------------------------------------------------------------
+        scoretable = SKSpriteNode(texture: sheet.score())
+        fruit1 = GenerateScoreSprite()
+        fruit2 = GenerateScoreSprite()
+        fruit3 = GenerateScoreSprite()
+        fruit4 = GenerateScoreSprite()
+        fruit5 = GenerateScoreSprite()
+        fruit6 = GenerateScoreSprite()
+        fruit7 = GenerateScoreSprite()
+        fruit8 = GenerateScoreSprite()
+        //-------------------------------------------------------------
+        let positionX = self.size.width * 0.5
+        let positionY = self.size.height + scoretable.size.height * 0.5
+        //-------------------------------------------------------------
+        fruit1.position = CGPointMake(positionX - scoretable.size.width / 9 * 3.5, positionY)
+        fruit2.position = CGPointMake(positionX - scoretable.size.width / 9 * 2.5, positionY)
+        fruit3.position = CGPointMake(positionX - scoretable.size.width / 9 * 1.5, positionY)
+        fruit4.position = CGPointMake(positionX - scoretable.size.width / 9 * 0.5, positionY)
+        fruit5.position = CGPointMake(positionX + scoretable.size.width / 9 * 0.5, positionY)
+        fruit6.position = CGPointMake(positionX + scoretable.size.width / 9 * 1.5, positionY)
+        fruit7.position = CGPointMake(positionX + scoretable.size.width / 9 * 2.5, positionY)
+        fruit8.position = CGPointMake(positionX + scoretable.size.width / 9 * 3.5, positionY)
+        scoretable.alpha = 0.5
+        scoretable.position = CGPointMake(self.size.width * 0.5, self.size.height + scoretable.size.height * 0.5)
+        //-------------------------------------------------------------
+        let scoreMove = SKAction.moveToY(self.size.height - scoretable.size.height * 0.5, duration: 0.5)
+        scoretable.runAction(scoreMove)
+        fruit1.runAction(scoreMove)
+        fruit2.runAction(scoreMove)
+        fruit3.runAction(scoreMove)
+        fruit4.runAction(scoreMove)
+        fruit5.runAction(scoreMove)
+        fruit6.runAction(scoreMove)
+        fruit7.runAction(scoreMove)
+        fruit8.runAction(scoreMove)
+        //-------------------------------------------------------------
+        addChild(scoretable)
+        addChild(fruit1)
+        addChild(fruit2)
+        addChild(fruit3)
+        addChild(fruit4)
+        addChild(fruit5)
+        addChild(fruit6)
+        addChild(fruit7)
+        addChild(fruit8)
+    }
+
+    
+    func RemoveScore(){
+        let scoreMove = SKAction.moveToY(self.size.height + scoretable.size.height * 0.5, duration: 0.5)
+        scoretable.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit1.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit2.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit3.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit4.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit5.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit6.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit7.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+        fruit8.runAction(scoreMove, completion:{self.scoretable.removeFromParent()})
+    }
+    
     func SpawnFruit(){
         let cherry = SKSpriteNode(texture: sheet.cherry())
         let strawberry = SKSpriteNode(texture: sheet.strawberry())
         var fruitList: [SKSpriteNode] = [cherry, strawberry]
         let random: Int = Int(arc4random_uniform(UInt32(fruitList.count)))
         let fruit = fruitList[random]
-        if random == 0 {
+        switch random{
+        case 0:
             fruit.name = "cherry"
-        } else if random == 1 {
+        case 1:
             fruit.name = "strawberry"
+        default:
+            break
         }
+
         fruit.physicsBody = SKPhysicsBody(rectangleOfSize: (fruit.texture?.size())!)
         fruit.position = CGPointMake(self.size.width + (fruit.texture!.size().width * 0.5),
             self.size.height * 0.3 + fruit.texture!.size().height * 2)
@@ -105,12 +193,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         fruit.physicsBody?.categoryBitMask = Category.Fruit
         fruit.physicsBody?.contactTestBitMask = Category.Player
         fruit.physicsBody?.collisionBitMask = Category.Obstacle
-        let fruitMove = SKAction.moveToX(0.0 - fruit.size.width, duration: 2.33)
+        let fruitMove = SKAction.moveToX(0.0 - fruit.size.width, duration: 2.27)
         fruit.runAction(fruitMove, completion: {fruit.removeFromParent()})
         addChild(fruit)
     }
     
     func StartGame(node: SKNode){
+        collectedItems = Queue()
         let actionMove = SKAction.moveTo(CGPoint(x: -self.background.size.width*0.5, y: 0.0), duration: NSTimeInterval(3.0))
         func bgloop(){                        // Creating a backround loop with "bgloop()" It's recursive!
             background.runAction(actionMove, completion: {self.background.position = CGPoint(x: 0.0, y: 0.0); bgloop()})
@@ -119,6 +208,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         let playerGoBack = SKAction.moveTo(CGPoint(x: self.size.width*0.2, y: self.size.height*0.5), duration: NSTimeInterval(0.6))
         node.runAction(buttonFadeOut, completion: {node.removeFromParent()})
         bgloop()
+        RemoveScore()
         player.runAction(playerGoBack, completion: {self.player.Run()}) // Place player to run position and start running!
         print("start") // DEBUG LOG
         buttonActive = false
@@ -145,9 +235,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func StopGame(){
-        while (!collectedItems.isEmpty()){
-            print(collectedItems.dequeue())
-        }
+//        while (!collectedItems.isEmpty()){
+//            print(collectedItems.dequeue())
+//        }
         player.removeFromParent()
         UIStart()
         buttonActive = true
@@ -161,6 +251,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         let sequence = SKAction.sequence([wait, spawnPlayer])
         self.runAction(sequence)
+        ShowScore()
     }
     
     func playerDidCollideWithFruit(player:SKSpriteNode, fruit:SKSpriteNode) {
@@ -201,13 +292,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func didBeginContact(contact: SKPhysicsContact) {
-        
         let firstNode = contact.bodyA.node as! SKSpriteNode
         let secondNode = contact.bodyB.node as! SKSpriteNode
         
         if (contact.bodyA.categoryBitMask == Category.Player) &&
             (contact.bodyB.categoryBitMask == Category.Fruit) {
                playerDidCollideWithFruit(firstNode, fruit: secondNode)
+        }
+        if (contact.bodyB.categoryBitMask == Category.Player) &&
+            (contact.bodyA.categoryBitMask == Category.Fruit) {
+                playerDidCollideWithFruit(secondNode, fruit: firstNode)
         }
     }
     
@@ -216,5 +310,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if player.position.x < (0 - player.size.width/2) && isRunning{
             StopGame()
         }
+//        if collectedItems.list.count == 8 {
+//            StopGame()
+//        }
     }
 }

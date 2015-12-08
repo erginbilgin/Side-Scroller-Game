@@ -65,6 +65,7 @@ class Sprites {
     let PLAYER_SLIDE_007 = "player/slide/007"
     let PLAYER_SLIDE_008 = "player/slide/008"
     let PLAYER_SLIDE_009 = "player/slide/009"
+    let SCORE            = "score"
     let STRAWBERRY       = "strawberry"
 
 
@@ -127,6 +128,7 @@ class Sprites {
     func player_slide_007() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_007) }
     func player_slide_008() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_008) }
     func player_slide_009() -> SKTexture { return textureAtlas.textureNamed(PLAYER_SLIDE_009) }
+    func score() -> SKTexture            { return textureAtlas.textureNamed(SCORE) }
     func strawberry() -> SKTexture       { return textureAtlas.textureNamed(STRAWBERRY) }
 
 
